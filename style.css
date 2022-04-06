@@ -26,23 +26,24 @@ body {
     justify-content: center;
 }
 
-.pos1 {
+.pos_text {
     text-align: center;
     margin: 20px;
     font-size: 20px;
 }
 
-.img {
+.frog {
     width: 300px;
     border-radius: 70%;
     margin: 30px;
+    transition-duration: 0.7s;
 }
 
-.img:hover {
-    filter: brightness(60%);
-    transition-duration: 0.5s;
+.frog:hover {
+    filter: brightness(40%);
+    transition-duration: 0.7s;
 }
 
-.img1 {
+.main_face {
     width: 300px;
 }
